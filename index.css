@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.main{
+   display: flex;
+   flex-direction: column;
+}
+
+
+.top{
+    width: 100%;
+    height: 5vh;
+   background-color: rgb(211, 206, 188);
+}
+
+
+
+.top ul{
+    margin-left: 400px;
+    position: relative;
+    bottom: 5px;
+}
+
+
+
+.top ul li{
+   float: left;
+   list-style: none;
+   padding: 10px;
+   border-radius: 30px 30px 30px 30px;
+   font-size: 13px;
+}
+
+
+ol{
+    position: relative;
+    bottom: 20px;
+}
+
+
+
+.top ol li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+    font-size: 13px;
+}
+
+/* =====================================top end=============================================================== */
+
+
+header{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    
+}
+
+
+img{
+    width: 90px;
+    height: 90px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+.collagename{
+    width: 500px;
+    height: 80px;
+    margin-left: 300px;
+    margin-top: 13px;
+}
+
+
+
+
+.nacc{
+    margin-left: 300px;
+    width: 90px;
+    height: 90px;
+}
+
+
+/* =============================header end ======================================================================*/
+
+
+
+.contact{
+    width: 100%;
+    height: 7vh;
+    background-color: #1c1c50;
+}
+
+
+.contact li{
+    float: left;
+    color: white;
+    list-style: none;
+    padding: 10px;
+    margin-left: 40px;
+}
+
+
+.contact li:hover{
+    background-color: azure;
+    color: black;
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+}
+
+
+/* ============================================= contact end=====================================================*/
+
+
+
+.Traning{
+    width: 100%;
+    height: 50vh;   
+}
+
+
+.Traning img{
+    height: 50vh;
+    margin-left: 0px;
+}
+
+/* ========================================== Traning end=========================================================*/
+
+
+.Gallery{
+    width: 100%;
+    height: 100vh;
+    
+     padding-top: 20px;
+}
+
+
+
+.Redressal{
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+}
+
+
+.card{
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    margin-left: 130px;
+    box-shadow: 3px 3px 3px 3px  grey;
+}
+
+
+
+.card-2{
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px 3px  grey;
+}
+
+
+.card-3{
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px 3px  grey;
+}
+
+
+.Redressal img{
+    width: 250px;
+    margin-right: 100px;
+    height: 100px;
+}
+
+
+
+.card:hover{
+    transform: scale(1.1,1.1);
+    transition: all;
+}
+
+
+.card-2:hover{
+    transform: scale(1.1,1.1);
+    transition: all;
+}
+
+
+
+.card-3:hover{
+    transform: scale(1.1,1.1);
+    transition: all;
+}
+
+
+.btn-success{
+    margin-left: 700px;
+    margin-top: 20px;
+}
+
+
+/* ============================card end=============================================================== */
+
+.Student{
+    width: 100%;
+    height: 45vh;
+    background-color: #1c1c50;
+    margin-top: 20px;
+    display: flex;
+}
+
+
+.Student img{
+    width: 50%;
+    height: 40vh;
+} 
+
+
+/* ======================= organized end ==========================================================================*/
+
+
+.organized{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    padding-top: 60px;
+   
+}
+
+
+.icon{
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    margin-left: 100px;
+    background-color: gold;
+}
+
+
+.organized  h2{
+    font-size: 15px;
+    text-align: center;
+}
+
+  .Feedback{
+    width: 250px;
+   position: relative;
+   right: 20px;
+  
+} 
+
+
+.Engineering{
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    margin-left: 80px;
+    background-color: gold;
+}
+
+
+
+.Program {
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    margin-left: 80px;
+    background-color: gold;
+}
+
+
+.btn-primary{
+    margin-left: 35px;
+    width: 200px;
+}
+
+/* =================================================================.organized end=============================== */
+
+
+.Nilona{
+    width: 100%;
+    height: 50vh;
+    background-color: darkblue;
+    position: absolute;
+    top: 1520px;
+    display: flex;
+}
+
+
+.admitted {
+    width: 600px;
+    height: 40vh;
+    background-color: white;
+    margin-top: 30px;
+    display: flex;
+   margin-left: 40px;
+}
+
+.admitted img{
+    width: 150px;
+    height: 150px;
+}
+
+
+.constraint{
+    width: 600px;
+    height: 40vh;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 80px;
+    display: flex;
+}
+
+.constraint img{
+    width: 150px;
+    height: 150px;
+}
+
+
